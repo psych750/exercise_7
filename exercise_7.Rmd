@@ -1,0 +1,161 @@
+---
+title: "Exercise 7"
+author: "Your name"
+date: "date"
+output: 
+  html_document:
+    toc: yes
+    toc_float: yes
+    theme: cerulean
+    number_sections: no
+---
+
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+library(sjmisc)
+library(ggplot2)
+
+```
+
+Follow instructions at https://kjhealy.github.io/gssr/ to install gssr
+
+# Helper functions
+
+Feel free to use this one in place of regular `mean`! No need to do round and na.rm=TRUE each time
+```{r}
+mean_round <- function(numbers,sig_digits=2){
+ return(round(mean(as.numeric(numbers),na.rm=TRUE),sig_digits))
+}
+```
+
+
+# Attach the data
+
+Load in the data, e.g., `data(gss_all)`
+```{r message=FALSE, warning=FALSE}
+
+
+```
+
+
+
+# Part 1
+
+Human evolution vs. elephant evolution
+
+```{r warning=FALSE}
+
+
+```
+
+
+# Part 2
+
+Basic science knowledge, politics, education, and endorsement of human evolution?
+
+```{r warning=FALSE}
+
+
+```
+
+
+# Part 3
+
+Sexual frequency
+
+## 3a
+
+
+```{r warning=FALSE}
+
+
+```
+
+## 3b
+
+```{r warning=FALSE}
+
+
+```
+
+## 3c
+
+```{r warning=FALSE}
+
+
+```
+
+
+# Part 4
+
+Tax priorities
+
+
+## 4a
+
+```{r warning=FALSE}
+
+
+```
+
+## 4b
+
+```{r warning=FALSE}
+
+
+```
+
+
+# Part 5
+
+Astrology: beliefs, hobbies, and personalities
+
+
+## 5a
+```{r warning=FALSE}
+
+
+```
+
+
+## 5b
+```{r warning=FALSE}
+
+
+```
+
+
+## 5c
+```{r warning=FALSE}
+
+
+```
+
+
+## 5d
+```{r warning=FALSE}
+
+
+```
+
+
+
+# Bonus A
+
+Children vs siblings discrepancy
+
+```{r warning=FALSE}
+
+
+```
+
+
+# Bonus B
+
+Cross sectional vs. longitututinal differences
+
+```{r warning=FALSE}
+
+
+```
