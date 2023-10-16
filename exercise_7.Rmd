@@ -138,24 +138,3 @@ Astrology: beliefs, hobbies, and personalities
 
 
 ```
-
-
-
-# Bonus A
-
-Children vs siblings discrepancy
-
-```{r warning=FALSE}
-
-
-```
-
-
-# Bonus B
-
-Cross sectional vs. longitututinal differences
-
-```{r warning=FALSE}
-
-
-```
