@@ -30,9 +30,10 @@ mean_round <- function(numbers,sig_digits=2){
 ```
 
 
+
 # Attach the data
 
-Load in the data, e.g., `data(gss_all)`
+Load in the data, e.g., `data(gss_all)`, `data(gss_dict)`
 ```{r message=FALSE, warning=FALSE}
 
 
@@ -62,7 +63,7 @@ Basic science knowledge, politics, education, and endorsement of human evolution
 
 # Part 3
 
-Sexual frequency
+Work and Happiness
 
 ## 3a
 
